@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musikalisasi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="player">
+        <div class="player__header">
+        <div class="player__img player__img--absolute slider">
+        <button class="player__button player__button--absolute--nw playlist">
+        <img src="http://physical-authority.surge.sh/imgs/icon/playlist.svg" alt="playlist-icon">
+        </button>
+        <button class="player__button player__button--absolute--center play">
+        <img src="http://physical-authority.surge.sh/imgs/icon/play.svg" alt="play-icon">
+        <img src="http://physical-authority.surge.sh/imgs/icon/pause.svg" alt="pause-icon">
+        </button>
+        <div class="slider__content">
+        <img class="img slider__img" src="Tanah.jpg" alt="cover">
+        <img class="img slider__img" src="Menangisi.jpg" alt="cover">
+        <img class="img slider__img" src="kerumunan.jpg" alt="cover">
+        <img class="img slider__img" src="Menantang.jpg" alt="cover">
+        <img class="img slider__img" src="Hari.jpg" alt="cover">
+        <img class="img slider__img" src="Bulan.jpg" alt="cover">
+        <img class="img slider__img" src="pemenang.jpg" alt="cover">
+        <img class="img slider__img" src="opus.jpg" alt="cover">
+        <img class="img slider__img" src="Evaluasi.jpg" alt="cover">
+        <img class="img slider__img" src="tidur.jpg" alt="cover">
+        </div>
+        </div>
+        <div class="player__controls">
+        <button class="player__button back">
+        <img class="img" src="http://physical-authority.surge.sh/imgs/icon/back.svg" alt="back-icon">
+        </button>
+        <p class="player__context slider__context">
+        <strong class="slider__name"></strong>
+        <span class="player__title slider__title"></span>
+        </p>
+        <button class="player__button next">
+        <img class="img" src="http://physical-authority.surge.sh/imgs/icon/next.svg" alt="next-icon">
+        </button>
+        <div class="progres">
+        <div class="progres__filled"></div>
+        </div>
+        </div>
+        </div>
+        <ul class="player__playlist list">
+        <li class="player__song">
+        <img class="player__img img" src="Tanah.jpg" alt="cover">
+        <p class="player__context">
+        <b class="player__song-name">Tanah Yang Indah Untuk Para Terabaikan</b>
+        <span class="flex">
+        <span class="player__title">FSTVLST</span>
+        <span class="player__song-time"></span>
+        </span>
+        </p>
+        <audio class="audio" src="Tanah.mp3" type="audio/mp3"></audio>
+        </li>
+        <li class="player__song">
+        <img class="player__img img" src="Menangisi.jpg" alt="cover">
+        <p class="player__context">
+        <b class="player__song-name">Menangisi Akhir Pekanmu</b>
+        <span class="flex">
+        <span class="player__title">FSTVLST</span>
+        <span class="player__song-time"></span>
+        </span>
+        </p>
+        <audio class="audio" src="Menangisi.mp3"></audio>
+        </li>
+        <li class="player__song">
+        <img class="player__img img" src="kerumunan.jpg" alt="cover">
+        <p class="player__context">
+        <b class="player__song-name">Orang Orang Dikerumunan</b>
+        <span class="flex">
+        <span class="player__title">FSTVLST</span>
+        <span class="player__song-time"></span>
+        </span>
+        </p>
+        <audio class="audio" src="kerumunan.mp3"></audio>
+        </li>
+        <li class="player__song">
+        <img class="player__img img" src="Menantang.jpg" alt="cover">
+        <p class="player__context">
+        <b class="player__song-name">Menantang Rasi Bintang</b>
+        <span class="flex">
+        <span class="player__title">FSTVLST</span>
+        <span class="player__song-time"></span>
+        </span>
+        </p>
+        <audio class="audio" src="Menantang.mp3"></audio>
+        </li>
+        <li class="player__song">
+        <img class="player__img img" src="Hari.jpg" alt="cover">
+        <p class="player__context ">
+        <b class="player__song-name">Hari Terakhir Peradaban</b>
+        <span class="flex">
+        <span class="player__title">FSTVLST</span>
+        <span class="player__song-time"></span>
+        </span>
+        </p>
+        <audio class="audio" src="Hari.mp3"></audio>
+        </li>
+        <li class="player__song">
+        <img class="player__img img" src="Bulan.jpg" alt="cover">
+        <p class="player__context">
+        <b class="player__song-name">Bulan Setan Atau Malaikat</b>
+        <span class="flex">
+        <span class="player__title">FSTVLST</span>
+        <span class="player__song-time"></span>
+        </span>
+        </p>
+        <audio class="audio" src="Bulan.mp3"></audio>
+        </li>
+        <li class="player__song">
+        <img class="player__img img" src="pemenang.jpg" alt="cover">
+        <p class="player__context ">
+        <b class="player__song-name">Rayakan Pemenang <span class="uppercase">4am</span> Feast</b>
+        <span class="flex">
+        <span class="player__title">MORFEM</span>
+        <span class="player__song-time"></span>
+        </span>
+        </p>
+        <audio class="audio" src="pemenang.mp3"></audio>
+        </li>
+        <li class="player__song">
+            <img class="player__img img" src="opus.jpg" alt="cover">
+            <p class="player__context">
+            <b class="player__song-name">Opus</b>
+            <span class="flex">
+            <span class="player__title">FSTVLST</span>
+            <span class="player__song-time"></span>
+            </span>
+            </p>
+            <audio class="audio" src="opus.mp3"></audio>
+            </li>
+            <li class="player__song">
+                <img class="player__img img" src="Evaluasi.jpg" alt="cover">
+                <p class="player__context">
+                <b class="player__song-name">Evaluasi</b>
+                <span class="flex">
+                <span class="player__title">HINDIA</span>
+                <span class="player__song-time"></span>
+                </span>
+                </p>
+                <audio class="audio" src="Evaluasi.mp3"></audio>
+                </li>
+                <li class="player__song">
+                    <img class="player__img img" src="tidur.jpg" alt="cover">
+                    <p class="player__context">
+                    <b class="player__song-name">Tidur Dimanapun Bermimpi Kapanpun</b>
+                    <span class="flex">
+                    <span class="player__title">MORFEM</span>
+                    <span class="player__song-time"></span>
+                    </span>
+                    </p>
+                    <audio class="audio" src="tidur.mp3"></audio>
+                    </li>
+        </ul>
+        </div>
+        <!-- Javascript -->
+        <script src="app.js"></script>
+</body>
+</html>
